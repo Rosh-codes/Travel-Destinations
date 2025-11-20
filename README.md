@@ -96,15 +96,5 @@ node server.js
 
 Contributions are welcome. Open an issue or submit a pull request with changes. If you make breaking changes, update this README accordingly.
 
-## License
-
-Add a `LICENSE` file to this repository if you intend to publish it. If you want a minimal permissive license, consider the MIT license.
-
----
-
-If you'd like, I can also:
-
-- Add a short `package.json` `start` script if it's missing.
-- Create a `LICENSE` file (MIT) and a simple GitHub Actions workflow for tests.
 
 
