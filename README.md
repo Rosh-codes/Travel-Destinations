@@ -79,18 +79,8 @@ node server.js
 - `utility/QueryParamsFilter.js` — helper to apply query-string filters.
 - `utility/placeFilter.js` — helper to filter by continent/country path parameters.
 
-## Notes & recommendations before publishing
 
-- Persistence: the dataset is in-memory. For real usage, switch `database/db.js` to load/store from a file or a proper database.
-- Security: inputs are currently used for filtering without strict validation. Sanitize and validate query and path inputs before using in production.
-- CORS: `sendJSON.js` allows all origins and only GET. Harden CORS and enable other methods if needed.
-- Tests & CI: add unit tests and a GitHub Actions workflow before publishing to npm/GitHub.
 
-## Suggested next steps (optional)
-
-- Add a `LICENSE` file (MIT/Apache/Unlicense) depending on how you want to license the project.
-- Add a small test suite (e.g., using Jest or Mocha) and a CI workflow.
-- Improve error handling and return JSON error responses for invalid requests.
 
 ## Contributing
 
